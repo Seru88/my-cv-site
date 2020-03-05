@@ -77,7 +77,7 @@ module.exports = {
   },
   siteUrl: 'https://seru88.github.io/my-cv-site',
   pathPrefix: '/my-cv-site', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/my-cv-site/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
