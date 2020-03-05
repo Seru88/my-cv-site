@@ -45,7 +45,7 @@ class Home extends React.Component {
               <Col xs={4} className='avatar'>
                 <img
                   className='avatar__image'
-                  src='/images/avatar.jpeg'
+                  src={siteConfig.siteCover}
                   alt='user avatar'
                 />
                 <div className="social">
