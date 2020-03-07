@@ -110,8 +110,8 @@ module.exports = {
     github: 'https://github.com/Seru88',
     email: 'sergio.nizama@outlook.com',
   },
-  siteUrl: 'http://wwww.sergionizama.com',
-  pathPrefix: '/my-cv-site', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://wwww.sergionizama.com',
+  pathPrefix: '/', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'G-YDVKW0TG79',
   background_color: '#303030',
