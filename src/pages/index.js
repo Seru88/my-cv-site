@@ -12,6 +12,8 @@ import About from '../components/about'
 import Skills from '../components/skills'
 import Timeline from '../components/timeline'
 import Repositories from '../components/repositories'
+import siteCover from '../assets/cover.jpeg';
+import avatarImg from '../assets/avatar.jpeg';
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -35,7 +37,7 @@ class Home extends React.Component {
         />
 
         <Hero
-          heroImg={siteConfig.siteCover}
+          heroImg={siteCover}
           title={title}
         />
 
@@ -45,7 +47,7 @@ class Home extends React.Component {
               <Col xs={4} className='avatar'>
                 <img
                   className='avatar__image'
-                  src={siteConfig.siteCover}
+                  src={avatarImg}
                   alt='user avatar'
                 />
                 <div className="social">
