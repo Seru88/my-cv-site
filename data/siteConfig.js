@@ -117,7 +117,8 @@ module.exports = {
   background_color: '#303030',
   theme_color: '#7e57c2',
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+
+  icon: 'src/assets/favicon.png',
   headerLinks: [
     {
       label: 'Sergio Nizama',
