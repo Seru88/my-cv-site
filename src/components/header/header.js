@@ -12,6 +12,7 @@ const HeaderWrapper = styled.header`
   display: block;
   width: 100%;
   z-index: 1000;
+
   background-color: #7e57c2;
 `
 
@@ -26,6 +27,7 @@ const HeaderNav = styled.nav`
   justify-content: space-between;
   overflow-x: auto;
   overflow-y: hidden;
+  
   background-color: #7e57c2;
 `
 
