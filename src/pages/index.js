@@ -13,7 +13,7 @@ import Skills from '../components/skills'
 import Timeline from '../components/timeline'
 import Repositories from '../components/repositories'
 import siteCover from '../assets/cover.jpeg';
-import avatarImg from '../assets/avatar.jpeg';
+import avatarImg from '../assets/avatarImg.jpeg';
 
 const Separator = styled.hr`
   margin-top: 24px;
