@@ -1,92 +1,127 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  siteTitle: "Hi! I'm Sergio!",
+  siteDescription: `Sergio Nizama's Portfolio`,
+  keyWords: [
+    'Sergio Nizama',
+    'Sergio',
+    'Nizama',
+    'Full Stack Developer',
+    'Unity Developer',
+    'Software',
+    'Full Stack',
+    'Web',
+    'Unity',
+    'Developer',
+    'Javascript',
+    'JS',
+    'C Sharp',
+    'C#',
+    'HTML5',
+    'CSS3',
+    'VR',
+    'AR',
+  ],
+  authorName: 'Sergio Nizama',
+  twitterUsername: null,
+  githubUsername: 'Seru88',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Resourceful and dynamic software engineer possessing strong communication skills, experienced in translating design ideas, concepts, and requirements into functional and engaging experiences, ability to obtain necessary requirements to define next steps, and provide recommendations. Always adapting to new technologies, environment, and facing new challenges.
+  `,
   skills: [
     {
       name: 'HTML',
-      level: 70
+      level: 80,
     },
     {
       name: 'CSS',
-      level: 60
+      level: 75,
     },
     {
-      name: 'Javascript',
-      level: 50
-    },
-    {
-      name: 'NodeJs',
-      level: 40
+      name: 'JavaScript / TypeScript',
+      level: 85,
     },
     {
       name: 'React',
-      level: 60
+      level: 90,
     },
     {
+      name: 'Unity / C#',
+      level: 80,
+    },
+
+    {
       name: 'Git',
-      level: 70
-    }
+      level: 70,
+    },
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: 'The Glimpse Group (KreatAR)',
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'feb',
+        year: '2018',
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
+      occupation: 'Lead Front-End Developer',
+      description: `As KreatAR's Lead Developer, I make key decisions on product
+        architecture, manage my team, and work closely with designers to
+        make sure our products always meet our client’s expectations.
+        Currently I am working on Post Reality, an online 3D editor for
+        creating your very own custom AR experiences that can be shared
+        and viewed on mobile devices.`,
+    },
+    {
+      company: 'Crowquetica Games',
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'oct',
+        year: '2016',
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
+      duration: '1 yr 3 mos',
+      occupation: 'Lead Unity Developer / Co-founder',
+      description: `Taking all I learned at What Pumpkin Games, as the Lead
+        Developer for startup, Crowquetica Games, I was deeply involved
+        in all key development decisions and took ownership of preparing
+        an efficient development pipeline. Developing for a game like
+        this was a new experience, but gave me the opportunity to learn
+        and create complex enemy AI using behavior trees, prototype
+        complex game mechanics, as well as branching NPC narratives.`,
+    },
+    {
+      company: 'What Pumpkin Studios',
       begin: {
-        month: 'set',
-        year: '2012'
+        month: 'nov',
+        year: '2014',
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      duration: '1 yr',
+      occupation: 'Unity Developer',
+      description: `From Unity tools to mini-games, to getting my hands dirty in the
+        game’s architecture, I've been lucky enough to dabble in all
+        sorts of programming tasks while working on Hiveswap - one of
+        Steam's most popular games for 2017! While working at What
+        Pumpkin Games, my main duties involved creating custom Unity
+        tools to aid artists and designers, implementing turn-based
+        combat mechanics and player interactivity.`,
     },
     /* ... */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: null,
+    linkedin: 'https://www.linkedin.com/in/sergionizama/',
+    github: 'https://github.com/Seru88',
+    email: 'sergio.nizama@outlook.com',
   },
   siteUrl: 'https://seru88.github.io/my-cv-site',
   pathPrefix: '/my-cv-site', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-000000000-1',
-  background_color: '#ffffff',
-  theme_color: '#25303B',
+  googleAnalyticsId: 'G-YDVKW0TG79',
+  background_color: '#303030',
+  theme_color: '#7e57c2',
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Sergio Nizama',
       url: '/',
-    }
-  ]
+    },
+  ],
 }
