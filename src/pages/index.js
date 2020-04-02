@@ -20,6 +20,8 @@ const Separator = styled.hr`
   margin-bottom: 16px;
 `
 
+// some test comment
+
 class Home extends React.Component {
   render () {
     // validate siteConfig settings
